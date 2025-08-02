@@ -1,9 +1,8 @@
 {
-    "title":"菲洛梅迪博客",
+    "title":"菲洛梅迪的博客",
     "subTitle":"记录日常生活",
     "avatarUrl":"https://avatars.githubusercontent.com/u/222481734?v=4",
     "startSite":"07/24/2025",
-    "allHead":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekVercount.js'></script>",
     "allHead":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekVercount.js'></script>",
     "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekTOC.js'></script>",
     "bottomText":"❤️ 转载文章请注明出处，谢谢！❤️",
