@@ -79,8 +79,8 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/068b3864-0d76-4668-b52c-ba92a9d4ef5d"><img width="2000" height="1290" alt="Image" src="https://github.com/user-attachments/assets/068b3864-0d76-4668-b52c-ba92a9d4ef5d" style="max-width: 100%; height: auto; max-height: 1290px;"></a></p>
-<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/e05ea94e-8299-4d31-b833-e224f7896247"><img width="2000" height="1290" alt="Image" src="https://github.com/user-attachments/assets/e05ea94e-8299-4d31-b833-e224f7896247" style="max-width: 100%; height: auto; max-height: 1290px;"></a></p>
+<div class="markdown-body" id="postBody"><p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/068b3864-0d76-4668-b52c-ba92a9d4ef5d"><img width="2000" height="923" alt="Image" src="https://github.com/user-attachments/assets/068b3864-0d76-4668-b52c-ba92a9d4ef5d" style="max-width: 100%; height: auto; max-height: 923px;; aspect-ratio: 2000 / 923; background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a></p>
+<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/e05ea94e-8299-4d31-b833-e224f7896247"><img width="2000" height="923" alt="Image" src="https://github.com/user-attachments/assets/e05ea94e-8299-4d31-b833-e224f7896247" style="max-width: 100%; height: auto; max-height: 923px;; aspect-ratio: 2000 / 923; background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a></p>
 <p>打了很多天！差不多有一个月吧！</p></div>
 <div style="font-size:small;margin-top:8px;float:right;">❤️ 转载文章请注明出处，谢谢！❤️</div>
 
@@ -101,7 +101,7 @@ if("07/24/2025"!=""){
     var startSite=new Date("07/24/2025");
     var diff=now.getTime()-startSite.getTime();
     var diffDay=Math.floor(diff/(1000*60*60*24));
-    document.getElementById("runday").innerHTML="网站运行"+diffDay+"天"+" • ";
+    document.getElementById("runday").innerHTML="网站运行 "+diffDay+" 天"+" • ";
 }
 </script></div>
 </body>
@@ -146,6 +146,7 @@ document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
 function openComments(){
     cm=document.getElementById("comments");
     cmButton=document.getElementById("cmButton");
+    cmButton.disabled=true;
     cmButton.innerHTML="loading";
     span=document.createElement("span");
     span.setAttribute("class","AnimatedEllipsis");
